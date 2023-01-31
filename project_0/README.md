@@ -4,7 +4,7 @@ README.md
 
 skillfactory_rds
 #### Python 3.9.13
-## Огловление
+# Огловление
 
 [1. Описание проекта](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Описание-проекта)  
 [2. Какой кейс решаем?](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Какой-кейс-решаем?)  
@@ -45,7 +45,7 @@ skillfactory_rds
 
 
 ### Результаты:  
-....
+компьютер угадывает число в среднем за 7 попыток
 
 :arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Огловление)
 
