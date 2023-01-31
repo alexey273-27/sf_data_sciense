@@ -4,7 +4,7 @@ README.md
 
 skillfactory_rds
 #### Python 3.9.13
-Огловление
+## Огловление
 
 [1. Описание проекта](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Описание-проекта)  
 [2. Какой кейс решаем?](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Какой-кейс-решаем?)  
@@ -15,7 +15,7 @@ skillfactory_rds
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
 
-:arrow_up:[к оглавлению](_)
+:arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Огловление)
 
 
 ### Какой кейс решаем?    
@@ -35,23 +35,23 @@ skillfactory_rds
 ### Краткая информация о данных
 ....
   
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Огловление)
 
 
 ### Этапы работы над проектом  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Огловление)
 
 
 ### Результаты:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Огловление)
 
 
 ### Выводы:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/main/project_0/README.md#Огловление)
 
