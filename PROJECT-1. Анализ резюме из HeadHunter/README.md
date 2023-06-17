@@ -14,6 +14,52 @@
 [4. Очистка данных](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Очистка-данных)
 
 ## Исследование структуры данных
+Импортируем библиотеки
+``` Python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+```
+
+Прочитаем данные с помощью библиотеки Pandas
+
+``` Python
+# Читаем данные с помощью библиотеки Pandos
+hh_database = pd.read_csv('data/dst-3.0_16_1_hh_database.csv', sep= ';')
+```  
+Выведим несколько первых (последних) строк таблицы
+``` Python
+print(hh_database.head())
+print(hh_database.tail())
+```
+
+Выведем основную информацию о числе непустых значений в столбцах и их типах в таблице.
+``` Python
+hh_database.info()
+```
+<class 'pandas.core.frame.DataFrame'>  
+<left>RangeIndex: 44744 entries, 0 to 44743  
+Data columns (total 12 columns):  
+    Column                           Non-Null Count  Dtype   
+---  ------                           --------------  -----   
+ 0   Пол, возраст                     44744 non-null  object  
+ 1   ЗП                               44744 non-null  object  
+ 2   Ищет работу на должность:        44744 non-null  object  
+ 3   Город, переезд, командировки     44744 non-null  object  
+ 4   Занятость                        44744 non-null  object  
+ 5   График                           44744 non-null  object  
+ 6   Опыт работы                      44576 non-null  object  
+ 7   Последнее/нынешнее место работы  44743 non-null  object  
+ 8   Последняя/нынешняя должность     44742 non-null  object  
+ 9   Образование и ВУЗ                44744 non-null  object  
+ 10  Обновление резюме                44744 non-null  object  
+ 11  Авто                             44744 non-null  object  
+dtypes: object(12)  
+memory usage: 4.1+ MB  
+
+
 :arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Огловление)
 ## Преобразование данных
 :arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Огловление)
