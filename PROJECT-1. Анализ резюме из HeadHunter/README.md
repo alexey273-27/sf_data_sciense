@@ -19,7 +19,7 @@
 
 
 
-### 1.1 Исследование структуры данных
+###  Исследование структуры данных
 Импортируем библиотеки
 ``` Python
 import pandas as pd
@@ -35,7 +35,7 @@ import plotly.express as px
 # Читаем данные с помощью библиотеки Pandos
 hh_database = pd.read_csv('data/dst-3.0_16_1_hh_database.csv', sep= ';')
 ```  
-Выведим несколько первых (последних) строк таблицы
+Выведим несколько первых (последних) строк таблицы чтобы убедиться в том, что ваши данные не повреждены
 ``` Python
 print(hh_database.head())
 print(hh_database.tail())
@@ -43,22 +43,59 @@ print(hh_database.tail())
 
 Выведем основную информацию о числе непустых значений в столбцах и их типах в таблице.
 ``` Python
-hh_database.info()
+hh_database.info() 
 ```
-<class 'pandas.core.frame.DataFrame'>  
-RangeIndex: 44744 entries, 0 to 44743  
-Data columns (total 12 columns):  
-"""""
-dtypes: object(12)  
-memory usage: 4.1+ MB  
+видно что таблица class 'pandas.core.frame.DataFrame'имеет 44744 строки и  12 столбцов типа   
+dtypes: object(12) и занимает memory usage: 4.1+ MB  
 
-Обратите внимание на информацию о числе непустых значений
+Обратим внимание на информацию о числе непустых значений
 ``` Python
-hh_database.count()
+hh_database.count() 
+```
+из таблицы видно что в трех столбцах есть пропуски   
+Опыт работы                        44576  
+Последнее/нынешнее место работы    44743  
+Последняя/нынешняя должность       44742
+
+расмотрим основную статистическую информацию о столбцах.
+``` Python
+hh_database.describe() 
+```
+из таблицы видно что очень много уникальных значений  
+:arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Огловление)
+### Преобразование данных
+Создадим с помощью функции-преобразования новый признак **"Образование"**, который должен иметь 4 категории: "высшее", "неоконченное высшее", "среднее специальное" и "среднее". 
+Удалим признак "Образование и ВУЗ".
+``` Python
+# На вход данной функции поступает строка с образованием.
+def level_education(educat):
+    # Метод split() разбивает строку на слова по пробелу.
+    # В результате получаем список слов в строке и заносим его в переменную educat_list.
+    educat_list = educat.split(' ')
+    # Обрезаем список, оставляя в нём только первые два  элемента и преобразуем его в строку ,
+    educat_type = ' '.join(educat_list[0:2])
+    # Делаем проверку на уровень образования.
+    if 'Высшее' in educat_type :
+        educat_type = 'высшее'
+    elif 'Неоконченное высшее' in educat_type:
+        educat_type = 'неоконченное высшее' 
+    elif 'Среднее специальное' in educat_type:
+        educat_type = 'среднее специальное'  
+    elif 'Среднее' in educat_type:
+        educat_type = 'среднее'      
+    #Возвращаем переменную street_type, в которой хранится уровень образования.
+    return educat_type
+
+#создаем новый признак Образование методом apply
+hh_database['Образование'] = hh_database['Образование и ВУЗ'].apply(level_education)
+
+
+print(hh_database['Образование'].value_counts())
+
+# удоляем столбец Образование и ВУЗ
+hh_database = hh_database.drop('Образование и ВУЗ', axis=1)
 ```
 
-:arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Огловление)
-### 1.2 Преобразование данных
 
 :arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Огловление)
 ### Исследование зависимостей в данных
