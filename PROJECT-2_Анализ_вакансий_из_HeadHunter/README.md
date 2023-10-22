@@ -5,29 +5,29 @@
 #### Python 3.9.13
 # Огловление
 
-[1. Описание проекта](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Описание-проекта)
+[1. Описание проекта](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Описание-проекта)
 
-[2. Алгоритм анализа:](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Алгоритм_анализа:)
+[2. Алгоритм анализа:](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Алгоритм_анализа:)
 
-[2.1 Исследование структуры данных](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Исследование-структуры-данных)
+[2.1 Предварительный анализ данных ](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Предварительный_анализ_данных)
 
-[2.2 Преобразование данных](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Преобразование-данных)
+[2.2 Преобразование данных](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Преобразование-данных)
 
-[2.3 Исследование зависимостей в данных](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Исследование-зависимостей-в-данных)
+[2.3 Исследование зависимостей в данных](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Исследование-зависимостей-в-данных)
 
-[2.4 Очистка данных](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Очистка-данных)
+[2.4 Очистка данных](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Очистка-данных)
 
-[3. Недостатки метода:](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Недостатки-метода:)
+[3. Недостатки метода:](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Недостатки-метода:)
 
-[4. Модификация метода:](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Модификация-метода:)
+[4. Модификация метода:](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Модификация-метода:)
 
-[5. Использованные инструменты и библиотеки](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Использованные-инструменты-и-библиотеки:)
+[5. Использованные инструменты и библиотеки](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Использованные-инструменты-и-библиотеки:)
 
 
 ## Описание проекта
 Нам необходимо перворительно проанализировать данные, затем пороанализировать вакансии, работодателей, провести Анализ вакансий которые имеют отношение к данным
 ## Алгоритм анализа:
-### 1. Предварительный анализ данных 
+###  Предварительный_анализ_данных 
 Здесь мы иследуем таблицы по следующим парвметрам:
 * общее количество вакансий по данным из HeadHunter.
 * обшее количество работодателей по данным из HeadHunter.
