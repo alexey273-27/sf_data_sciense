@@ -21,7 +21,7 @@
 
 
 
-[4. Использованные инструменты и библиотеки](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#Использованные-инструменты-и-библиотеки:)
+[4. Использованные инструменты и библиотеки](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2_%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7_%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D0%B8%D0%B9_%D0%B8%D0%B7_HeadHunter/README.md#%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B5_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D0%B8_%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B8)
 
 
 ## Описание_проекта
@@ -57,7 +57,7 @@
 * Сколько есть вакансий, в которых в качестве ключевого навыка указан Python.
 * Сколько ключевых навыков в среднем указывают в вакансиях для DS?
 * Напишите запрос, позволяющий вычислить, какую зарплату для DS в **среднем** указывают для каждого типа требуемого опыта 
-##  Выводы_по_проекту
+###  5. Выводы по проекту
 
 :arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-2.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Огловление)
 
