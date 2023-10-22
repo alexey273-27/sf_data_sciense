@@ -122,10 +122,8 @@
 ## Использованные инструменты и библиотеки
 
 * pandas 2.0.2
-* numpy 1.24.3
-* matplotlib  3.7.1
-* seaborn 0.12.2
-* plotly.express 5.15.0
+* psycopg2 2.9.7
+
 
 :arrow_up:[к оглавлению](https://github.com/alexey273-27/sf_data_sciense/blob/master/PROJECT-1.%20%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5%20%D0%B8%D0%B7%20HeadHunter/README.md#Огловление)
 
